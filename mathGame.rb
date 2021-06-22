@@ -11,20 +11,20 @@
   #players
     # player 1 -- property
     # player 2 -- property
-  #score
     # 3/3 -- property
+
   #question
     # generate two numbers between 1 and 20 -- method
     # what does x plus y equal -- method
-  # Responses
     # does the calculation -- method
+  # Responses
     # checks if the response is the same -- method
     # if not return incorrect message and subtract a point and display score -- method
     # if yes return correct message and display score -- method
-  # messages
-    # stored list of messages
     # that is correct -- property
     # that is incorrect -- property
+  # messages
+    # stored list of messages
     # you win -- property
     # ---new turn---  --property
     # ---end game---  -- property
