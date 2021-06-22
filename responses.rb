@@ -14,15 +14,12 @@ class Response
     if input === answer
       puts "#{@player.name}: Correct!"
 
-      puts "--- NEW TURN ---"
-
     elsif input != answer && player.score > 1
       puts "#{@player.name}: Sorry, you are wrong"
       @player.takeLife
-      puts "P1: #{@player.score} vs P2 #{@player.score}"
-      puts "--- NEW TURN ---"
       
     elsif input != answer && player.score === 1
+      @player.takeLife
       puts "#{@player.name}: you loose"
       puts "---END GAME---"
 
