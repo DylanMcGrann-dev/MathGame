@@ -42,7 +42,15 @@ class TheGame
         puts "P1: #{@player1.score} vs P2 #{@player2.score}"
         puts "--- NEW TURN ---"
       end
-      
+      addCount
+      if @player1.score === 0 
+        puts "player2 you win with #{player2.score} points"
+        puts "---END GAME---"
+      end
+      if @player2.score === 0 
+        puts "player1 you win with #{player1.score} points"
+        puts "---END GAME---"
+      end
     end
   end
 end

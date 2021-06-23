@@ -21,7 +21,7 @@ class Response
     elsif input != answer && player.score === 1
       @player.takeLife
       puts "#{@player.name}: you loose"
-      puts "---END GAME---"
+      
 
     end
   end
