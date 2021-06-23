@@ -6,6 +6,7 @@ class Questions
     @x = 0 
     @y = 0
     @player = player
+   
   end
   def generateQ
     @x = rand(20)
@@ -16,9 +17,11 @@ class Questions
   def answer
     @x + @y
   end
+  
 end
 
-
-# questions = Questions.new
-# questions.generateQ()
-# questions.answer
+# player1 = Players.new("player1")
+# questions = Questions.new(player1)
+# # questions.generateQ()
+# # questions.answer
+# puts questions.player
